@@ -141,7 +141,7 @@ class Home extends Component {
 
   searchProducts = searchStr => {
     let { products } = this.state;
-    if (searchStr && searchStr.length >= 3) {
+    if (products && searchStr && searchStr.length >= 3) {
       const searchResults = products.filter((product) => product.name.toLowerCase().includes(searchStr.toLowerCase()));
       this.props.setSearchResults(searchResults)
     }
