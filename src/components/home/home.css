@@ -1,0 +1,51 @@
+
+.main-container .MuiGrid-root{
+  width: 100%
+}
+
+.main-container .home-container {
+  margin: 4rem 0rem;
+}
+
+.product-img{
+  height: 10rem;
+  width: 10rem;
+}
+
+.MuiCardContent-root{
+  margin: 0rem 3rem;
+}
+
+.MuiButton-contained{
+  background-color: #F5AB22;
+  border-radius: 2rem;
+  position: relative;
+  top: 0.5rem;
+}
+.home-container .MuiCardContent-root{
+  padding: 0px;
+}
+.home-container .prod-discount{
+  color: #42B442;
+}
+.prod-price-details{
+  font-size:1rem;
+}
+.select{
+  color: #496EEA;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.unselect{
+  color:#9B9C9D;
+  text-decoration: none;
+  cursor: pointer;
+}
+.text-center{
+  text-align: center;
+  cursor: pointer;
+}
+.apply-btn{
+  margin-left: 1rem !important;
+}

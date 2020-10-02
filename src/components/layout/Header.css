@@ -1,0 +1,54 @@
+.site-name{
+  text-align: center;
+  color: #FFF;
+  position: relative;
+  top: 0.55rem;
+}
+
+.header-container{
+  background-color: #53A1E1 !important;
+}
+.menu-icon{
+  color: #FFFFFF;
+}
+.icon.btn{
+  padding: 20px !important;
+  min-width: 90px !important;
+}
+.MuiIconButton-edgeStart{
+  margin-left: 0px !important;
+}
+.right-btns{
+  position: relative;
+  left: 1rem;
+  top: 0.85rem;
+}
+.MuiSvgIcon-root{
+  margin-right: 0.5rem !important;
+}
+.MuiIconButton-colorInherit {
+  color: yellow !important;
+}
+.cart-items-cnt{
+  height: 1rem!important;
+  width: 1rem !important;
+  background-color: red;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  position: relative;
+  right: 0.7rem;
+  bottom: 1.2rem;
+  display: inline;
+  text-align: center;
+  padding: 0.11rem;
+}
+.right-btns .MuiSvgIcon-root{
+  cursor: pointer;
+}
+.MuiInputBase-input{
+  color: #FFFFFF !important;
+}
+.right-btns{
+  position: relative;
+    left: 0rem;
+}

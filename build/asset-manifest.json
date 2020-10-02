@@ -1,0 +1,35 @@
+{
+  "files": {
+    "static/js/0.8f5d307b.chunk.js": "/onlineshopdemo/static/js/0.8f5d307b.chunk.js",
+    "static/js/0.8f5d307b.chunk.js.map": "/onlineshopdemo/static/js/0.8f5d307b.chunk.js.map",
+    "main.css": "/onlineshopdemo/static/css/main.1dd1c60b.chunk.css",
+    "main.js": "/onlineshopdemo/static/js/main.79c9e710.chunk.js",
+    "main.js.map": "/onlineshopdemo/static/js/main.79c9e710.chunk.js.map",
+    "runtime-main.js": "/onlineshopdemo/static/js/runtime-main.a8bd806d.js",
+    "runtime-main.js.map": "/onlineshopdemo/static/js/runtime-main.a8bd806d.js.map",
+    "static/js/3.09e9266e.chunk.js": "/onlineshopdemo/static/js/3.09e9266e.chunk.js",
+    "static/js/3.09e9266e.chunk.js.map": "/onlineshopdemo/static/js/3.09e9266e.chunk.js.map",
+    "static/js/4.71a444fa.chunk.js": "/onlineshopdemo/static/js/4.71a444fa.chunk.js",
+    "static/js/4.71a444fa.chunk.js.map": "/onlineshopdemo/static/js/4.71a444fa.chunk.js.map",
+    "static/css/5.92710b69.chunk.css": "/onlineshopdemo/static/css/5.92710b69.chunk.css",
+    "static/js/5.c7113076.chunk.js": "/onlineshopdemo/static/js/5.c7113076.chunk.js",
+    "static/js/5.c7113076.chunk.js.map": "/onlineshopdemo/static/js/5.c7113076.chunk.js.map",
+    "static/css/6.16d8664e.chunk.css": "/onlineshopdemo/static/css/6.16d8664e.chunk.css",
+    "static/js/6.1956c98f.chunk.js": "/onlineshopdemo/static/js/6.1956c98f.chunk.js",
+    "static/js/6.1956c98f.chunk.js.map": "/onlineshopdemo/static/js/6.1956c98f.chunk.js.map",
+    "index.html": "/onlineshopdemo/index.html",
+    "precache-manifest.2dec17d8d1c2e35f2b144723258c514e.js": "/onlineshopdemo/precache-manifest.2dec17d8d1c2e35f2b144723258c514e.js",
+    "service-worker.js": "/onlineshopdemo/service-worker.js",
+    "static/css/5.92710b69.chunk.css.map": "/onlineshopdemo/static/css/5.92710b69.chunk.css.map",
+    "static/css/6.16d8664e.chunk.css.map": "/onlineshopdemo/static/css/6.16d8664e.chunk.css.map",
+    "static/css/main.1dd1c60b.chunk.css.map": "/onlineshopdemo/static/css/main.1dd1c60b.chunk.css.map",
+    "static/js/0.8f5d307b.chunk.js.LICENSE.txt": "/onlineshopdemo/static/js/0.8f5d307b.chunk.js.LICENSE.txt",
+    "static/js/3.09e9266e.chunk.js.LICENSE.txt": "/onlineshopdemo/static/js/3.09e9266e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8bd806d.js",
+    "static/js/3.09e9266e.chunk.js",
+    "static/css/main.1dd1c60b.chunk.css",
+    "static/js/main.79c9e710.chunk.js"
+  ]
+}

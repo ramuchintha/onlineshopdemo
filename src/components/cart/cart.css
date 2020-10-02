@@ -1,0 +1,51 @@
+.main-container .cart-container {
+  margin: 4rem 0rem;
+}
+.prod-qty{
+  position: relative;
+  bottom: 0.3rem;
+}
+ .add-qty :hover,.remove-qty :hover{
+   cursor: pointer;
+ }
+ .empty-cart{
+   text-align: center;
+   color: #E66F66;
+   font-size: 2rem;;
+ }
+.cart-container .MuiCardContent-root{
+  margin: 0rem;
+}
+
+.cart-container .product-img{
+  height: 7rem;
+  width: 7rem;
+}
+.price-details-label{
+  text-align: center;
+  font-weight: bold;
+  color: #8D8D8D;
+}
+.total-discount-label,.total-products-label{
+  margin: 0.5rem 0rem;
+}
+
+.total-payable-label{
+  font-weight: bold;
+  margin: 0.5rem 0rem;
+}
+.discount{
+  font-size: 1rem;
+  color: #42B442;
+  position: relative;
+  left: 0.7rem;
+}
+.align-middle{
+  position: relative;
+  top: 2rem;
+}
+
+.add-product{
+  text-align: center;
+  font-size: 2rem;;
+}
