@@ -141,8 +141,8 @@ class Home extends Component {
 
   searchProducts = searchStr => {
     let { products } = this.state;
-    const searchResults = products.filter((product) => product.name.toLowerCase().includes(searchStr.toLowerCase()));
-    if (searchStr.length >= 3) {
+    if (searchStr && searchStr.length >= 3) {
+      const searchResults = products.filter((product) => product.name.toLowerCase().includes(searchStr.toLowerCase()));
       this.props.setSearchResults(searchResults)
     }
     else {
@@ -165,22 +165,24 @@ class Home extends Component {
         <div className="main-container">
           <Typography className="home-container" variant="h6" style={{ flexGrow: 1 }}>
             <Hidden only={['xs']}>
-              <Grid container>
-                <Grid item lg={1}>
-                  Sort By
+              {products &&
+                <Grid container>
+                  <Grid item lg={1}>
+                    Sort By
                 </Grid>
-                <Grid item lg={2}>
-                  <span className={sortField === 'high' ? "select" : "unselect"} onClick={() => this._sortProductsbyField('high')}>Price -- High Low</span>
+                  <Grid item lg={2}>
+                    <span className={sortField === 'high' ? "select" : "unselect"} onClick={() => this._sortProductsbyField('high')}>Price -- High Low</span>
+                  </Grid>
+                  <Grid item lg={2}>
+                    <span className={sortField === 'low' ? "select" : "unselect"} onClick={() => this._sortProductsbyField('low')}>Price -- Low High</span>
+                  </Grid>
+                  <Grid item lg={2}>
+                    <span className={sortField === 'discount' ? "select" : "unselect"} onClick={() => this._sortProductsbyField('discount')}>Discount</span>
+                  </Grid>
+                  <Grid item lg={3}>&nbsp;</Grid>
+                  <Grid item lg={2}>&nbsp;</Grid>
                 </Grid>
-                <Grid item lg={2}>
-                  <span className={sortField === 'low' ? "select" : "unselect"} onClick={() => this._sortProductsbyField('low')}>Price -- Low High</span>
-                </Grid>
-                <Grid item lg={2}>
-                  <span className={sortField === 'discount' ? "select" : "unselect"} onClick={() => this._sortProductsbyField('discount')}>Discount</span>
-                </Grid>
-                <Grid item lg={3}>&nbsp;</Grid>
-                <Grid item lg={2}>&nbsp;</Grid>
-              </Grid>
+              }
             </Hidden>
             <Hidden only={['lg']}>
               <Grid container>
@@ -199,11 +201,13 @@ class Home extends Component {
               alignItems="flex-start">
               {products && this.displayProducts()}
             </Grid>
-            <Grid container item xs={12} md={12} spacing={2}
+            <Grid container item xs={12} md={12} lg={12} spacing={2}
               direction="row"
               justify="flex-start"
               alignItems="flex-start">
-              {products.length === 0 && 'No products found...'}
+              <Grid item lg={12} xs={12} md={12} className="no-prodcuts">
+                {products.length === 0 && 'No products found...'}
+              </Grid>
             </Grid>
           </Typography>
         </div>
