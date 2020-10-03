@@ -16,7 +16,7 @@
   margin: 0rem 3rem;
 }
 
-.MuiButton-contained{
+.home-container .MuiButton-contained{
   background-color: #F5AB22;
   border-radius: 2rem;
   position: relative;

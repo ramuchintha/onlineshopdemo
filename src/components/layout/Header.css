@@ -26,12 +26,11 @@
 .MuiSvgIcon-root{
   margin-right: 0.5rem !important;
 }
-.MuiButton-root{
-  background-color: #f7ad22 !important;
-}
+
 .MuiIconButton-colorInherit {
   color: yellow !important;
 }
+
 .cart-items-cnt{
   position: absolute;
   width: 15px;
@@ -75,5 +74,11 @@
 @media screen and (width:414px){
   .cart-items-cnt{
     right: 3rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .cart-items-cnt{
+    right: 4.5rem !important;
   }
 }
