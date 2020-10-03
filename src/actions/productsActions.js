@@ -8,6 +8,7 @@ import {
 } from './types';
 
 import { PRODUCTS_Endpoint as enAPI } from '../env_variable';
+import cartData from '../static/cart.json';
 
 // Get products list
 export const getProducts = () => dispatch => {
@@ -16,9 +17,11 @@ export const getProducts = () => dispatch => {
     payload: true
   });
   let productsApi = enAPI;
+
   axios
     .get(productsApi)
     .then(response => {
+      console.log('response: ', response);
       dispatch({
         type: GET_PRODUCTS,
         payload: response.data.items
@@ -29,10 +32,18 @@ export const getProducts = () => dispatch => {
       });
     })
     .catch(err => {
+
       let errorPayload;
       errorPayload = {
         message: 'Products fetching error'
       };
+      /* need to remove this once the api is up currently reading the local json file on error case*/
+      dispatch({
+        type: GET_PRODUCTS,
+        payload: cartData.items
+      });
+
+      /* need to remove this once the api is up currently reading the local json file on error case*/
       dispatch({
         type: GET_ERRORS,
         payload: errorPayload

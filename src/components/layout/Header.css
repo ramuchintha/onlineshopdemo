@@ -26,21 +26,23 @@
 .MuiSvgIcon-root{
   margin-right: 0.5rem !important;
 }
+.MuiButton-root{
+  background-color: #f7ad22 !important;
+}
 .MuiIconButton-colorInherit {
   color: yellow !important;
 }
 .cart-items-cnt{
-  height: 1rem!important;
-  width: 1rem !important;
-  background-color: red;
-  border-radius: 1rem;
-  font-size: 0.8rem;
-  position: relative;
-  right: 0.7rem;
-  bottom: 1.2rem;
-  display: inline;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 1rem;
+  bottom: 2.5rem;
+  border-radius: 50%;
+  background-color: #e82b2b;
+  color: #fff;
+  font-size: 10px;
   text-align: center;
-  padding: 0.11rem;
 }
 .right-btns .MuiSvgIcon-root{
   cursor: pointer;
@@ -51,4 +53,27 @@
 .right-btns{
   position: relative;
     left: 0rem;
+}
+
+@media screen and (width:360px) {
+  .cart-items-cnt{
+    right: 0.5rem;
+  }
+}
+
+@media screen and (width:375px){
+  .cart-items-cnt{
+    right: 1rem !important;
+  }
+}
+
+@media screen and (width:411px){
+  .cart-items-cnt{
+    right: 2.5rem !important;
+  }
+}
+@media screen and (width:414px){
+  .cart-items-cnt{
+    right: 3rem !important;
+  }
 }

@@ -119,7 +119,7 @@ class Home extends Component {
         <Fragment key={product.name}>
           <Grid item xs={12} md={3} lg={3}>
             <Card>
-              <CardContent>
+              <CardContent className="prod-details">
                 <Grid item xs={12} md={12} lg={12}>
                   <img alt={product.name} src={product.image} className="product-img" />
                 </Grid>
